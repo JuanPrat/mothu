@@ -1,0 +1,70 @@
+:root {
+    --light-golden: #e7d18e;
+    --dark-golden: #c29558;
+    --grey: #373738;
+    --light-grey: #a3a5a7;
+    --dark-grey: #34313c;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.card-container .view-more-button {
+    width: 15rem;
+    height: 5rem;
+    border-radius: 34px;
+    border: 0.2rem solid rgb(124, 124, 124);
+    background-color: var(--dark-golden);
+}
+
+.card-container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    background-color: var(--dark-golden);
+    margin: 5rem 3rem 5rem 3rem;
+    width: 23rem;
+    height: 50rem;
+    border-radius: 25px;
+}
+
+.card-container img {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 20rem;
+    margin: 1rem 1rem;
+    box-sizing: border-box;
+}
+
+.card-container h1{
+    margin: 1rem 1rem;
+}
+
+.card-container p {
+    margin: 1rem 1rem;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container button {
+    background-color: var(--light-golden);
+    border-radius: 2pc;
+    margin: 1rem 1rem;
+    width: 10rem;
+    height: 6rem;
+    transition: 0.3s;
+}
+
+.card-container button:hover {
+    transition: 0.5s;
+    transform: scale(1.05)
+}
